@@ -1,0 +1,85 @@
+body {
+  width: 100%;
+}
+.admin select {
+  width: 100%;
+  border: 1px solid;
+  border-radius: 0.25em;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* Admin */
+.admin {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-auto-rows: 100%;
+  justify-items: center;
+  height: 100%;
+}
+
+.admin-form {
+  width: 100%;
+  padding: 40px 40px 20px 40px;
+  background-color: lightgray;
+}
+
+.admin-form input {
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.admin-form button {
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.admin-form h4 {
+  margin-top: 15px;
+}
+
+.admin-form h2 {
+  text-align: center;
+}
+
+.products-table {
+  width: 100%;
+  padding: 40px 30px 20px 30px;
+  background-color: whitesmoke;
+}
+
+.products-table form button {
+  padding: 5px;
+  width: 70px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.products-table table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.products-table td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.products-table h2 {
+  text-align: center;
+}
+.products-table input {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}

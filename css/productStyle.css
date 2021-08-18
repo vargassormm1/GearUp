@@ -1,0 +1,18 @@
+input.qty {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.card-body {
+  height: 300px;
+}
+
+.card-body button {
+  width: 130px;
+}
+
+.card-title {
+  height: 55px;
+  margin-bottom: 15px;
+}

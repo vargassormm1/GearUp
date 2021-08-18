@@ -1,0 +1,14 @@
+body,
+html {
+  height: 100%;
+}
+/* My Orders */
+.orderHistory {
+  height: 100%;
+  padding: 20px 50px 90px 50px;
+  background-color: whitesmoke;
+}
+
+.orderHistory table {
+  margin-top: 30px;
+}
